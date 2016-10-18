@@ -1,0 +1,9 @@
+安装过程中有两个文件较大 通过默认的方式下载很慢
+一个是 git 克隆 youcompleteme 时 由于git较慢 二该项目本身较大 
+可以在国外vps上下载好然后在打包下载下来 放在 ~/.vim/bundle 下
+
+两个一个就是在安装youcompleteme时由于需要下载llvm + clang 可以用迅雷下载先下载下来
+下载下来后放在~/.vim/bundle/YouCompleteMe/third_party/ycmd/clang_archives 中
+
+可能遇到的问题
+1：对python-dev的依赖 apt安装python-dev即可
