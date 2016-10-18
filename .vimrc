@@ -71,22 +71,21 @@ set hlsearch
 "设置配色
 colorscheme desert
 
+" 启动时关闭折叠功能
+set nofoldenable
 
+set t_Co=256
 
+"设置NerdTree 映射到f3键
+map <F3> :NERDTreeToggle<CR>
 
+set cursorline
 
+hi CursorLine term=bold cterm=bold guibg=Grey90
 
+"设置自动启动缩进线
+let g:indent_guides_enable_on_vim_startup = 1
 
-
-
-
-
-
-
-
-
-
-
-
-
+"设置对齐线宽度为一
+let g:indent_guides_guide_size=1
 
