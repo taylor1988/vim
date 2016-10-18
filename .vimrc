@@ -22,6 +22,9 @@ Plugin 'Lokaltog/vim-powerline'
 "缓冲区插件
 Plugin 'jlanzarotta/bufexplorer'
 
+"youcompleteme
+Plugin 'Valloric/YouCompleteMe'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -91,5 +94,14 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_guide_size=1
 
 "******* END ******
+
+"************youcompleteme配置***********
+let mapleader = ","
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let g:ycm_confirm_extra_conf=0
+"let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
+"*************youcompleteme配置 END **********
 
 
