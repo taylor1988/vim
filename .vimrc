@@ -68,6 +68,9 @@ set mouse=a
 "高亮搜索结果
 set hlsearch
 
+"设置配色
+colorscheme desert
+
 
 
 
