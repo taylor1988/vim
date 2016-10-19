@@ -109,6 +109,8 @@ nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 let g:ycm_confirm_extra_conf=0
 "let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
+"设置python路径 此处设置为python3
+let g:ycm_python_binary_path = '/usr/bin/python3'
 "*************youcompleteme配置 END **********
 
 
