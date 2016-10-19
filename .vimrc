@@ -28,6 +28,8 @@ Plugin 'Valloric/YouCompleteMe'
 "智能注释插件
 Plugin 'scrooloose/nerdcommenter'
 
+"自动配对插件
+Plugin 'jiangmiao/auto-pairs'
 
 call vundle#end()
 
@@ -100,7 +102,8 @@ let g:indent_guides_guide_size=1
 "******* END ******
 
 "************youcompleteme配置***********
-let mapleader = ","
+"前导符改成了,号
+let mapleader = "," 
 let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
 nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 let g:ycm_confirm_extra_conf=0
