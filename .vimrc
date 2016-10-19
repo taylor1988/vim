@@ -22,8 +22,12 @@ Plugin 'Lokaltog/vim-powerline'
 "缓冲区插件
 Plugin 'jlanzarotta/bufexplorer'
 
-"youcompleteme
+"youcompleteme插件
 Plugin 'Valloric/YouCompleteMe'
+
+"智能注释插件
+Plugin 'scrooloose/nerdcommenter'
+
 
 call vundle#end()
 
@@ -104,4 +108,27 @@ let g:ycm_confirm_extra_conf=0
 let g:ycm_autoclose_preview_window_after_insertion = 1
 "*************youcompleteme配置 END **********
 
+
+"***********nerdcommenter配置项***********************
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+
+" Set a language to use its alternate delimiters by default
+let g:NERDAltDelims_java = 1
+
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+"***********END**********************
 
