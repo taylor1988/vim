@@ -32,7 +32,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
 
 "vim中文文档
-Plugin "vimcn/vimcdoc"
+Plugin 'vimcn/vimcdoc'
 
 call vundle#end()
 
