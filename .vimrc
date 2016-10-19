@@ -31,9 +31,15 @@ Plugin 'scrooloose/nerdcommenter'
 "自动配对插件
 Plugin 'jiangmiao/auto-pairs'
 
+"vim中文文档
+Plugin "vimcn/vimcdoc"
+
 call vundle#end()
 
 filetype plugin indent on
+
+"设置帮助语言为中文
+set helplang=cn
 
 "关闭vim的兼容模式
 set nocompatible 
