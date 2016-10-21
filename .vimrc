@@ -31,21 +31,16 @@ Plugin 'scrooloose/nerdcommenter'
 "自动配对插件
 Plugin 'jiangmiao/auto-pairs'
 
-"vim中文文档
-Plugin 'vimcn/vimcdoc'
-
 call vundle#end()
 
 filetype plugin indent on
 
-"设置帮助语言为中文
-set helplang=cn
 
 "关闭vim的兼容模式
 set nocompatible 
 
 "设置将tab建字第转换成空格
-:set expandtab
+set expandtab
 
 "显示行号
 set nu
@@ -83,8 +78,6 @@ set mouse=a
 "高亮搜索结果
 set hlsearch
 
-"设置配色
-colorscheme desert
 
 " 启动时关闭折叠功能
 set nofoldenable
