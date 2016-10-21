@@ -87,20 +87,20 @@ set nofoldenable
 
 set t_Co=256
 
+"高亮当前行
+set cursorline
+"设置高亮行样式
+hi CursorLine term=bold cterm=NONE ctermbg=DarkGray
+
 "设置NerdTree 映射到f3键
 map <F3> :NERDTreeToggle<CR>
 
-"*******设置powerline******
-set cursorline
-
-hi CursorLine term=bold cterm=NONE ctermbg=DarkGray
-
+"*******设置Indent-Guides******
 "设置自动启动缩进线
 let g:indent_guides_enable_on_vim_startup = 1
 
 "设置对齐线宽度为一
 let g:indent_guides_guide_size=1
-
 "******* END ******
 
 "************youcompleteme配置***********
