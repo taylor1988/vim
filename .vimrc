@@ -37,6 +37,8 @@ call vundle#end()
 
 filetype plugin indent on
 
+"高亮当前列
+set cursorcolumn
 
 "设置将tab建字第转换成空格
 set expandtab
