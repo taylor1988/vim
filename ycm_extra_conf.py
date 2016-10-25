@@ -1,3 +1,4 @@
+# -*-coding:utf-8-*-
 # This file is NOT licensed under the GPLv3, which is the license for the rest
 # of YouCompleteMe.
 #
