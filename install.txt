@@ -7,3 +7,15 @@
 
 可能遇到的问题
 1：对python-dev的依赖 apt安装python-dev即可
+
+Ubuntu安装说明
+1：安装依赖包
+apt install python-dev python3-dev cmake gcc g++ git
+2：安装vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+3：吧ycm拷贝到.vim/bundle 下并解压
+4：llvm + clang 放在~/.vim/bundle/YouCompleteMe/third_party/ycmd/clang_archives 中
+
+5：在ycm目录运行一下命令安装ycm
+./install.py --clang-completer
+

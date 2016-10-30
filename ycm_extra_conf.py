@@ -74,15 +74,13 @@ flags = [
 '.',
 '-I',
 './ClangCompleter',
-'-isystem',
-'./tests/gmock/gtest',
-'-isystem',
-'./tests/gmock/gtest/include',
-'-isystem',
-'./tests/gmock',
 #添加头文件路径到下面
 '-isystem',
-'./tests/gmock/include',
+'/usr/include/c++/5',
+'-isystem',
+'/usr/include/x86_64-linux-gnu',
+'-isystem',
+'/usr/include/linux',
 ]
 
 
