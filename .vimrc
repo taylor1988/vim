@@ -153,6 +153,7 @@ let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 "***********END**********************
 
-"autopep8设置"
+"autopep8设置
 let g:autopep8_disable_show_diff=1
-autocmd FileType python map <buffer> <F8> :call Autopep8()<CR>
+"F4映射为自动格式化代码"
+autocmd FileType python map <buffer> <F4> :call Autopep8()<CR>
