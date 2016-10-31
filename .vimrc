@@ -155,4 +155,4 @@ let g:NERDTrimTrailingWhitespace = 1
 
 "autopep8设置"
 let g:autopep8_disable_show_diff=1
-autocmd FileType python map <buffer> <F3> :call Autopep8()<CR>
+autocmd FileType python map <buffer> <F8> :call Autopep8()<CR>
