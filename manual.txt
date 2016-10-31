@@ -24,3 +24,6 @@ F3 弹出nerdtree框
 '\be' (normal open)  or   普通打开 会在当前窗口打开文件
 '\bs' (force horizontal split open)  or  垂直打开 在垂直方向上打开一个窗口并在该窗口上打开缓冲区
 '\bv' (force vertical split open)   水平方向新开窗口并打开缓冲区
+
+== 格式化当前行的代码
+gg=G 格式化整个文件的代码

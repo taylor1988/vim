@@ -33,6 +33,9 @@ Plugin 'scrooloose/nerdcommenter'
 "自动配对插件
 Plugin 'jiangmiao/auto-pairs'
 
+"python pep8插件
+Plugin 'tell-k/vim-autopep8'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -101,6 +104,9 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 "设置对齐线宽度为一
 let g:indent_guides_guide_size=1
+
+"缩进指示线
+let g:indentLine_char='┆'
 "******* END ******
 
 "************youcompleteme配置***********
@@ -111,8 +117,18 @@ nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 let g:ycm_confirm_extra_conf=0
 "let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
+
 "设置python路径 此处设置为python3
 let g:ycm_python_binary_path = '/usr/bin/python3'
+
+"是否在注释中也开启补全
+let g:ycm_complete_in_comments=1
+let g:ycm_collect_identifiers_from_comments_and_strings = 0
+
+"字符串中也开启补全
+let g:ycm_complete_in_strings = 1
+
+
 "*************youcompleteme配置 END **********
 
 
@@ -139,3 +155,5 @@ let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 "***********END**********************
 
+"autopep8设置"
+let g:autopep8_disable_show_diff=1
