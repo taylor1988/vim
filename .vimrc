@@ -153,7 +153,7 @@ let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 "***********END**********************
 
-"autopep8设置
+"autopep8设置 该插件依赖pip包autopep8 所以要先pip安装autopep8
 let g:autopep8_disable_show_diff=1
 "F4映射为自动格式化代码"
 autocmd FileType python map <buffer> <F4> :call Autopep8()<CR>
