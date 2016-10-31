@@ -36,6 +36,9 @@ Plugin 'jiangmiao/auto-pairs'
 "python pep8插件
 Plugin 'tell-k/vim-autopep8'
 
+"括号添加颜色"
+Plugin 'kien/rainbow_parentheses.vim'
+
 call vundle#end()
 
 filetype plugin indent on
