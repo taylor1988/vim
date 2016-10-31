@@ -97,6 +97,10 @@ hi CursorLine term=bold cterm=NONE ctermbg=DarkGray
 
 "设置NerdTree 映射到f3键
 map <F3> :NERDTreeToggle<CR>
+"设置忽略文件类型"
+let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$', '\.obj$', '\.o$']
+"显示书签"
+let NERDTreeShowBookmarks=1
 
 "*******设置Indent-Guides******
 "设置自动启动缩进线
