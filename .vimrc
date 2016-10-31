@@ -105,8 +105,6 @@ let g:indent_guides_enable_on_vim_startup = 1
 "设置对齐线宽度为一
 let g:indent_guides_guide_size=1
 
-"缩进指示线
-let g:indentLine_char='┆'
 "******* END ******
 
 "************youcompleteme配置***********
@@ -157,3 +155,4 @@ let g:NERDTrimTrailingWhitespace = 1
 
 "autopep8设置"
 let g:autopep8_disable_show_diff=1
+autocmd FileType python map <buffer> <F3> :call Autopep8()<CR>
