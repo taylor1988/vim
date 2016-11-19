@@ -100,7 +100,7 @@ set t_Co=256
 set cursorline
 
 "光标所在行的高亮样式
-hi CursorLine ctermfg=231 ctermbg=0 cterm=NONE
+hi CursorLine ctermfg=208 ctermbg=0 cterm=NONE
 "光标所在列的高亮样式
 hi cursorcolumn ctermfg=242 ctermbg=0 cterm=NONE
 
