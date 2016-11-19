@@ -98,8 +98,11 @@ set t_Co=256
 
 "高亮当前行
 set cursorline
-"设置高亮行样式
-hi CursorLine term=bold cterm=NONE ctermbg=DarkGray
+
+"光标所在行的高亮样式
+hi CursorLine ctermfg=242 ctermbg=0 cterm=NONE
+"光标所在列的高亮样式
+hi cursorcolumn ctermfg=242 ctermbg=0 cterm=NONE
 
 "设置NerdTree 映射到f3键
 map <F3> :NERDTreeToggle<CR>
