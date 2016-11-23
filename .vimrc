@@ -139,6 +139,8 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 0
 "字符串中也开启补全
 let g:ycm_complete_in_strings = 1
 
+"开启语意补全"
+let g:ycm_seed_identifiers_with_syntax = 1
 
 "*************youcompleteme配置 END **********
 
