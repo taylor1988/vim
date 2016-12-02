@@ -98,8 +98,11 @@ set t_Co=256
 
 "高亮当前行
 set cursorline
-"设置高亮行样式
-hi CursorLine term=bold cterm=NONE ctermbg=DarkGray
+
+"光标所在行的高亮样式
+hi CursorLine ctermfg=NONE ctermbg=0 cterm=NONE
+"光标所在列的高亮样式
+hi cursorcolumn ctermfg=NONE ctermbg=0 cterm=NONE
 
 "设置NerdTree 映射到f3键
 map <F3> :NERDTreeToggle<CR>
@@ -136,6 +139,8 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 0
 "字符串中也开启补全
 let g:ycm_complete_in_strings = 1
 
+"开启语意补全"
+let g:ycm_seed_identifiers_with_syntax = 1
 
 "*************youcompleteme配置 END **********
 
