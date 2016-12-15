@@ -99,6 +99,9 @@ set t_Co=256
 "高亮当前行
 set cursorline
 
+"f2启动粘贴模式 防止粘贴乱码"
+set pastetoggle=<F2>
+
 "光标所在行的高亮样式
 hi CursorLine ctermfg=NONE ctermbg=0 cterm=NONE
 "光标所在列的高亮样式
