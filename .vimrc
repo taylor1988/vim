@@ -42,6 +42,9 @@ Plugin 'kien/rainbow_parentheses.vim'
 "文件查找"
 Plugin 'kien/ctrlp.vim'
 
+"gedi-vim                                                                                                                                                                                            
+Plugin 'davidhalter/jedi-vim.git'
+
 call vundle#end()
 
 filetype plugin indent on
