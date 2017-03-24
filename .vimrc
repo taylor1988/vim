@@ -42,8 +42,11 @@ Plugin 'kien/rainbow_parentheses.vim'
 "文件查找"
 Plugin 'kien/ctrlp.vim'
 
-"gedi-vim                                                                                                                                                                                            
-Plugin 'davidhalter/jedi-vim.git'
+"xml编辑插件
+Plugin 'sukima/xmledit.git' 
+
+"语法检查插件
+Plugin 'vim-syntastic/syntastic'
 
 call vundle#end()
 
