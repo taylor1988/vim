@@ -48,8 +48,6 @@ Plugin 'sukima/xmledit.git'
 "语法检查插件
 Plugin 'vim-syntastic/syntastic'
 
-"pymode
-Plugin 'python-mode/python-mode'
 
 "配合syntastic 的 python语法检查插件
 Plugin 'https://gitlab.com/pycqa/flake8'
@@ -196,9 +194,6 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
-"pymode插件配置
-"允许Python3语法检查
-let g:pymode_python = 'python3'
 
 "ctrlp配置"
 let g:ctrlp_map = '<c-p>'
