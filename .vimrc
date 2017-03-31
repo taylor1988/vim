@@ -48,6 +48,9 @@ Plugin 'sukima/xmledit.git'
 "语法检查插件
 Plugin 'vim-syntastic/syntastic'
 
+"pymode
+Plugin 'python-mode/python-mode'
+
 "配合syntastic 的 python语法检查插件
 Plugin 'https://gitlab.com/pycqa/flake8'
 
