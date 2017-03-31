@@ -196,6 +196,10 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+"pymode插件配置
+"允许Python3语法检查
+let g:pymode_python = 'python3'
+
 "ctrlp配置"
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
