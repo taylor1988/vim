@@ -1,21 +1,21 @@
-°²×°¹ı³ÌÖĞÓĞÁ½¸öÎÄ¼ş½Ï´ó Í¨¹ıÄ¬ÈÏµÄ·½Ê½ÏÂÔØºÜÂı
-Ò»¸öÊÇ git ¿ËÂ¡ youcompleteme Ê± ÓÉÓÚgit½ÏÂı ¶ş¸ÃÏîÄ¿±¾Éí½Ï´ó 
-¿ÉÒÔÔÚ¹úÍâvpsÉÏÏÂÔØºÃÈ»ºóÔÚ´ò°üÏÂÔØÏÂÀ´ ·ÅÔÚ ~/.vim/bundle ÏÂ
+å®‰è£…è¿‡ç¨‹ä¸­æœ‰ä¸¤ä¸ªæ–‡ä»¶è¾ƒå¤§ é€šè¿‡é»˜è®¤çš„æ–¹å¼ä¸‹è½½å¾ˆæ…¢
+ä¸€ä¸ªæ˜¯ git å…‹éš† youcompleteme æ—¶ ç”±äºgitè¾ƒæ…¢ äºŒè¯¥é¡¹ç›®æœ¬èº«è¾ƒå¤§ 
+å¯ä»¥åœ¨å›½å¤–vpsä¸Šä¸‹è½½å¥½ç„¶ååœ¨æ‰“åŒ…ä¸‹è½½ä¸‹æ¥ æ”¾åœ¨ ~/.vim/bundle ä¸‹
 
-Á½¸öÒ»¸ö¾ÍÊÇÔÚ°²×°youcompletemeÊ±ÓÉÓÚĞèÒªÏÂÔØllvm + clang ¿ÉÒÔÓÃÑ¸À×ÏÂÔØÏÈÏÂÔØÏÂÀ´
-ÏÂÔØÏÂÀ´ºó·ÅÔÚ~/.vim/bundle/YouCompleteMe/third_party/ycmd/clang_archives ÖĞ
+ä¸¤ä¸ªä¸€ä¸ªå°±æ˜¯åœ¨å®‰è£…youcompletemeæ—¶ç”±äºéœ€è¦ä¸‹è½½llvm + clang å¯ä»¥ç”¨è¿…é›·ä¸‹è½½å…ˆä¸‹è½½ä¸‹æ¥
+ä¸‹è½½ä¸‹æ¥åæ”¾åœ¨~/.vim/bundle/YouCompleteMe/third_party/ycmd/clang_archives ä¸­
 
-¿ÉÄÜÓöµ½µÄÎÊÌâ
-1£º¶Ôpython-devµÄÒÀÀµ apt°²×°python-dev¼´¿É
+å¯èƒ½é‡åˆ°çš„é—®é¢˜
+1ï¼šå¯¹python-devçš„ä¾èµ– aptå®‰è£…python-devå³å¯
 
-Ubuntu°²×°ËµÃ÷
-1£º°²×°ÒÀÀµ°ü
+Ubuntuå®‰è£…è¯´æ˜
+1ï¼šå®‰è£…ä¾èµ–åŒ…
 apt install python-dev python3-dev cmake gcc g++ git
-2£º°²×°vundle
+2ï¼šå®‰è£…vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-3£º°Éycm¿½±´µ½.vim/bundle ÏÂ²¢½âÑ¹
-4£ºllvm + clang ·ÅÔÚ~/.vim/bundle/YouCompleteMe/third_party/ycmd/clang_archives ÖĞ
+3ï¼šå§ycmæ‹·è´åˆ°.vim/bundle ä¸‹å¹¶è§£å‹
+4ï¼šllvm + clang æ”¾åœ¨~/.vim/bundle/YouCompleteMe/third_party/ycmd/clang_archives ä¸­
 
-5£ºÔÚycmÄ¿Â¼ÔËĞĞÒ»ÏÂÃüÁî°²×°ycm
+5ï¼šåœ¨ycmç›®å½•è¿è¡Œä¸€ä¸‹å‘½ä»¤å®‰è£…ycm
 ./install.py --clang-completer
 
