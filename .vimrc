@@ -1,5 +1,6 @@
 "vundle配置
-
+"支持在vim启动时自动执行当前工作目录的.vimrc文件 可以实现不同项目使用不同vim配置的目的
+set exrc
 "关闭vim的兼容模式
 set nocompatible
 filetype off
